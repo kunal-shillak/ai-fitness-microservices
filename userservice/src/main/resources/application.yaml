@@ -8,3 +8,11 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZonne: http://localhost:8761/eureka
+
+server:
+  port: 8081
